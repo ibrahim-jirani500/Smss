@@ -1,0 +1,18 @@
+.Landing-page{
+    background-color: #f4f5f7;
+    height:100vh;
+    }
+
+.nav-bar{
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+    
+  text-align: center;
+  }
+
+  .nav-links{
+    display: flex;
+    gap: 30px;
+  }
+

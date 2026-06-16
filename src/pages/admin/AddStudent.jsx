@@ -4,7 +4,7 @@ function addstudent (){
                 
            <div className="add-container">
              <form action="">
-<h3>Registration</h3>
+<h3>Add Student</h3>
        
 <input className="input" type="text" placeholder="Full Name" required/>        
 <input className="input" type="text" placeholder="Registration number" required/>
@@ -16,7 +16,8 @@ function addstudent (){
 
         
 
-        <button>Add</button>
+        <button>Save</button>
+        <button>cancel</button>
  
     
 

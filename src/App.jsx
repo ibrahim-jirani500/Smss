@@ -1,12 +1,13 @@
 import { BrowserRouter ,Routes,Route,Link,useNavigation, useNavigate } from "react-router-dom";
 import Login from "./pages/Login";
-import Landing from "./pages/Landing";
-import Admin from "./pages/Admin";
-import ManageStudent from "./components/ManageStudent"
-import Examination from "./components/Examination";
-import AddStudent from "./components/AddStudent";
-import ManageStaff from "./components/ManageStaff";
-import AddTeacher from "./components/AddTeacher";
+import Landing from "./pages/Header";
+import Dashboard from "./pages/admin/Dashboard"
+import ManageStudent from "./pages/admin/ManageStudent"
+import Examination from "./pages/admin/Examination";
+import AddStudent from "./pages/admin/AddStudent";
+import ManageStaff from "./pages/admin/ManageStaff";
+import AddTeacher from "./pages/admin/AddTeacher";
+import Header from "./pages/Header";
 
 function App(){
   return(
@@ -14,9 +15,9 @@ function App(){
     <BrowserRouter>
     
     <Routes>
-    <Route path="/" element={<Landing/>}/>
+    <Route path="/" element={<Header/>}/>
     <Route path="/Login" element={<Login/>}/>
-    <Route path="/Admin" element={<Admin/>}/>
+    <Route path="/Dashboard" element={<Dashboard/>}/>
     <Route path="/ManageStudent" element={<ManageStudent/>}/>
     <Route path="/ManageStaff" element={<ManageStaff/>}/>    
     <Route path="/Examination" element={<Examination/>}/>

@@ -4,7 +4,7 @@ function Addteacher (){
                 
            <div className="add-container">
              <form action="">
-<h3>Registration</h3>
+<h3>Add Teacher</h3>
        
 <input className="input" type="text" placeholder="Full Name" required/>        
 <input className="input" type="text" placeholder="Gender" required/>
@@ -15,7 +15,8 @@ function Addteacher (){
 
         
 
-        <button>Add</button>
+         <button>Save</button>
+        <button>cancel</button>
  
     
 

@@ -2,12 +2,12 @@ import { Link, useNavigate } from "react-router-dom";
 
 import './Student.css'
 
-function Student() {
+function Dashboard() {
   const navigate = useNavigate();
   return (
     <div className="admin">
       <div className="welcome" >
-        <h1>Welcome To Admin Panel</h1>
+        <h2>Welcome To Admin Panel</h2>
     </div>
     <div className="navbar">
       <Link to={'/ManageStudent'} className="navbar-links" onClick={()=>navigate('/ManageStudent')}>Manage Student</Link>
@@ -21,5 +21,5 @@ function Student() {
     </div>
   )
 }
-export default Student
+export default Dashboard;
 
