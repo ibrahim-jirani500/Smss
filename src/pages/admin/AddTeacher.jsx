@@ -1,6 +1,6 @@
 function Addteacher (){
     return(
-<div className="addstudent">                   
+<div className="addteacher">                   
                 
            <div className="add-container">
              <form action="">
@@ -12,6 +12,8 @@ function Addteacher (){
 <input className="input" type="text" placeholder="Residential address"/>
 <input className="input" type="text" placeholder="subjects" required/>
 <input className="input" type="number" placeholder="classes" required/>
+
+
 
         
 
